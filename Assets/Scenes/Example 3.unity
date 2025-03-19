@@ -775,7 +775,7 @@ Transform:
   m_GameObject: {fileID: 1057181879}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.96, y: -1.71, z: 100}
+  m_LocalPosition: {x: -0.96000004, y: -1.71, z: 100}
   m_LocalScale: {x: 0.9412, y: 0.9507, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1354,6 +1354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1563242830}
   - component: {fileID: 1563242829}
+  - component: {fileID: 1563242831}
   m_Layer: 0
   m_Name: Screen Shot 2022-05-19 at 6.39.10 PM_0
   m_TagString: Untagged
@@ -1431,6 +1432,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!249 &1563242831
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1563242828}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 0
+  m_ForceMagnitude: 1500
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1 &1570311420
 GameObject:
   m_ObjectHideFlags: 0
