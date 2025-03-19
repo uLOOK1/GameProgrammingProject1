@@ -18,12 +18,6 @@ public class PlayerScript : MonoBehaviour
     
 
     //Start automatically gets triggered once when the objects turns on/the game starts
-    void Start()
-    {
-        //During setup we call UpdateScore to make sure our score text looks correct
-        UpdateScore();
-    }
-
     //Update is a lot like Start, but it automatically gets triggered once per frame
     //Most of an object's code will be called from Update--it controls things that happen in real time
     void Update()
